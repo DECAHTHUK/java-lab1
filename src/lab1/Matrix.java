@@ -1,3 +1,5 @@
+package lab1;
+
 import java.util.Iterator;
 import java.util.List;
 
@@ -70,7 +72,7 @@ public class Matrix {
         }
     }
 
-    // Matrix transponation
+    // lab1.Matrix transponation
     public void transponate() {
         Matrix temp = new Matrix(this.m, this.n);
         for (int i = 0; i < m; i++) {

@@ -1,8 +1,11 @@
+package lab1;
+
+
 import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        // Matrix 1 init
+        // lab1.Matrix 1 init
         System.out.println("-----------------------------------------------------");
         System.out.println("matrix1:");
         System.out.println("-----------------------------------------------------");
@@ -13,7 +16,7 @@ public class Main {
         System.out.print(matrix1);
         System.out.println("-----------------------------------------------------");
 
-        // Matrix 2 init
+        // lab1.Matrix 2 init
         System.out.println("matrix2:");
         System.out.println("-----------------------------------------------------");
         List<Complex> list2 = List.of(new Complex(6), new Complex(7, 2),
@@ -29,7 +32,7 @@ public class Main {
         System.out.print(matrix1);
         System.out.println("-----------------------------------------------------");
 
-        //Matrix 3 init
+        //lab1.Matrix 3 init
         System.out.println("matrix3:");
         System.out.println("-----------------------------------------------------");
         List<Complex> list3 = List.of(new Complex(1), new Complex(22, 1),
